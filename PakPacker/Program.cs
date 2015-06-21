@@ -26,10 +26,10 @@ namespace PakPacker
         static void Main(string[] args)
         {
             if (args.Length < 2)
-	    {
+	        {
                 Console.WriteLine("Usage: PakPacker.exe x|p file.");
-		return;
-	    }
+		        return;
+	        }
 
             if (args[0] == "x")
                 Extract(args[1]);
